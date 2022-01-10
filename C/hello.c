@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    char name = 'F';
-    printf("My name starts with:  %c \n", name);
+    char value = getchar();
+
+    printf("You entered %c \n", value)
     return 0;
 }
