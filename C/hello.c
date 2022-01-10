@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    printf("Hello World\n");
+    int num = 1;
+    printf("The value is %ld \n", sizeof(num));
     return 0;
 }
