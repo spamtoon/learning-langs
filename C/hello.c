@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int num = 1;
-    printf("The value is %d \n", num);
+    char name = 'F';
+    printf("My name starts with:  %c \n", name);
     return 0;
 }
