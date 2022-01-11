@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    char value = getchar();
+    char value[4];
+    FILE *f = fopen("hello.c", "r");
 
-    printf("You entered %c \n", value)
+    fgets(value, 4, f);
+
+    printf("You entered %s \n", value);
     return 0;
 }
